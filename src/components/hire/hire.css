@@ -1,0 +1,9 @@
+/*Hire Me Style*/
+.hire-me__title {
+    font-weight: 300;
+}
+
+.hire-me .btn-hire {
+    font-weight: 500;
+    font-size: 18px;
+}

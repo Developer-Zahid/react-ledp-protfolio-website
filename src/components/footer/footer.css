@@ -1,0 +1,107 @@
+/*Footer Style*/
+.footer__top {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  @media (max-width: 767px) {
+    .footer__top {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+  
+  @media (max-width: 340px) {
+    .footer__top .nav__item {
+      margin-right: 0;
+    }
+  }
+  
+  .footer__top .nav__item .form-control {
+    height: 48px;
+    max-width: 230px;
+    border-color: #999;
+  }
+  
+  .footer__top .nav__item .form-control::-webkit-input-placeholder {
+    opacity: 1;
+  }
+  
+  .footer__top .nav__item .form-control:-ms-input-placeholder {
+    opacity: 1;
+  }
+  
+  .footer__top .nav__item .form-control::-ms-input-placeholder {
+    opacity: 1;
+  }
+  
+  .footer__top .nav__item .form-control::placeholder {
+    opacity: 1;
+  }
+  
+  .footer__top .nav__item .form-control:focus {
+    border-color: var(--primary-color);
+  }
+  
+  .footer__top .nav__item .btn {
+    right: 0;
+    font-size: 18px;
+    color: #444444;
+  }
+  
+  .footer__top .nav__item .btn:hover {
+    color: var(--primary-color);
+  }
+  
+  .footer__top .nav__link {
+    font-size: 18px;
+    color: #222222;
+  }
+  
+  .footer__top .nav__link:hover {
+    color: var(--primary-color);
+  }
+  
+  .footer__top .footer__social .social__icon {
+    width: 50px;
+    height: 50px;
+    background: #f4f4f4;
+    color: #a7a7a7;
+  }
+  
+  .footer__top .footer__social .social__icon--facebook:hover {
+    background: #1877f2;
+  }
+  
+  .footer__top .footer__social .social__icon--twitter:hover {
+    background: #1da1f2;
+  }
+  
+  .footer__top .footer__social .social__icon--instagram:hover {
+    background: #e7375d;
+  }
+  
+  .footer__top .footer__social .social__icon--youtube:hover {
+    background: #ff0000;
+  }
+  
+  .footer__top .footer__social .social__icon:hover {
+    color: #ffffff;
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  }
+  
+  .footer__bottom {
+    padding: 40px 0;
+    border-top: 1px solid #ececec;
+  }
+  
+  @media (max-width: 575px) {
+    .footer__bottom {
+      padding: 20px 0;
+    }
+  }
+  
+  .footer__bottom p {
+    font-family: var(--primary-font);
+  }

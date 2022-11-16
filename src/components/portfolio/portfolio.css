@@ -1,0 +1,55 @@
+/*Portfolio Style*/
+.portfolio__block {
+    cursor: pointer;
+  }
+  
+  .portfolio__block:hover .portfolio__overlay {
+    opacity: 1;
+  }
+  
+  .portfolio__overlay {
+    top: 0;
+    left: 0;
+    background: var(--opacity-color);
+    opacity: 0;
+  }
+  
+  .portfolio__overlay::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background: #f4f4f4;
+    width: 82px;
+    height: 82px;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  }
+  
+  .portfolio__subHeading {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+  .portfolio__heading {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  @media (max-width: 767px) {
+    .portfolio__heading {
+      font-size: 20px;
+    }
+  }
+  
+  .portfolio__heading::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: #fafafa;
+    width: 40px;
+    height: 2px;
+  }
